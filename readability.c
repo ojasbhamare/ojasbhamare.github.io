@@ -39,18 +39,18 @@ int main(void)
         }
     }
 
-    int ans = roundNo(5.88 * (l/w) - 29.6 * (s/w) - 15.8);
+    int ans = roundNo( (5.88 * ((float)l/w)) - (29.6 * ((float)s/w)) - 15.8);
 
     if (ans < 1)
     {
-        printf("Before Grade 1");
+        printf("Before Grade 1\n");
     }
     else if (ans > 16)
     {
-        printf("Grade 16+");
+        printf("Grade 16+\n");
     }
     else
     {
-        printf("Grade %i",ans);
+        printf("Grade %i\n",ans);
     }
 }
