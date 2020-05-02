@@ -2,10 +2,11 @@ while True:
     n = input('Height: ')
     if n == '':
         continue
+    z = 'int'
     for i in n:
-        if n not in range(0, 10):
-            pass
-    else:
+        if i not in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'] :
+            z = 'notint'
+    if z == 'notint':
         continue
     n = int(n)
     if 0 < n < 9:
