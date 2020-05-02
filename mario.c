@@ -22,7 +22,7 @@ int main(void)
             }
         }
 
-        printf(" ");            //Middle gap on each line
+        printf("  ");            //Middle gap on each line
 
         for(int k=0;k<i+1;k++)  //Right part of objective
         {
