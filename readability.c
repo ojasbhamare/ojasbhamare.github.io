@@ -10,9 +10,8 @@ int roundNo(float num)
 
 int main(void)
 {
-    int l=0;
-    int w=0;
-    int s=0;
+    int l = 0, w = 0, s = 0;
+
     string text = get_string("Text: ");
 
     for (int i = 0; i < strlen(text) ; i++)
@@ -33,13 +32,13 @@ int main(void)
 
     for (int i = 0 ; i < strlen(text) ; i++)
     {
-        if ((65 <= (int) text[i] && (int) text[i] <= 90 )|| (97 <=(int) text[i] && (int) text[i] <= 122))
+        if ((65 <= (int) text[i] && (int) text[i] <= 90) || (97 <= (int) text[i] && (int) text[i] <= 122))
         {
             l += 1;
         }
     }
 
-    int ans = roundNo( (5.88 * ((float)l/w)) - (29.6 * ((float)s/w)) - 15.8);
+    int ans = roundNo((5.88 * ((float)l / w)) - (29.6 * ((float)s / w)) - 15.8);
 
     if (ans < 1)
     {
@@ -51,6 +50,6 @@ int main(void)
     }
     else
     {
-        printf("Grade %i\n",ans);
+        printf("Grade %i\n", ans);
     }
 }
