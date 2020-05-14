@@ -7,7 +7,7 @@ if len(sys.argv) != 2:
 
 db = cs50.SQL("sqlite:///students.db")
 
-lists = db.execute("SELECT first, middle, last, birth FROM houses WHERE house = ? ORDER BY last, first", sys.argv[1])
+lists = db.execute("SELECT first, middle, last, birth FROM students WHERE house = ? ORDER BY last, first", sys.argv[1])
 
 for stud in lists:
     first = stud["first"]
