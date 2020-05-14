@@ -14,7 +14,7 @@ for stud in lists:
     middle = stud["middle"]
     last = stud["last"]
     birth = stud["birth"]
-    
+
     if middle == None:
         print(f"{first} {last}, born {birth}")
     else:
