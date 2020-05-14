@@ -19,3 +19,4 @@ for stud in lists:
         print(f"{first} {last}, born {birth}")
     else:
         print(f"{first} {middle} {last}, born {birth}")
+print()
