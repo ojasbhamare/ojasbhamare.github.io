@@ -1,0 +1,25 @@
+.main-heading
+{
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif,Arial, Helvetica;
+    color: yellow;
+}
+
+.text
+{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Bahnschrift ;
+    font-weight: bold;
+}
+
+.titles
+{
+    text-align: center;
+    color: red;
+    font-size: 17px;
+    font-family: Bahnschrift;
+}
+
